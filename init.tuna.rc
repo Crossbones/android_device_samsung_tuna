@@ -122,7 +122,7 @@ on fs
     chown system system /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
     chown system system /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq
     chown system system /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
-    chown system system /sys/block/mtdblock4/queue/scheduler
+    chown system system /sys/block/mmcblk0/queue/scheduler
 
 on property:persist.sys.tuna.off_mode=*
 	write /d/pm_debug/enable_off_mode $persist.sys.tuna.off_mode
