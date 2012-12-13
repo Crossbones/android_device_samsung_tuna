@@ -19,4 +19,7 @@
     <!-- True if GPU clock speed can be modified on device -->
     <bool name="device_enable_gpu_clock" translatable="false">true</bool>
 
+    <!-- True if device has High Performance Sound support -->
+    <bool name="device_enable_high_perf_sound" translatable="false">true</bool>
+
 </resources>
