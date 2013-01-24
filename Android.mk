@@ -22,6 +22,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(BOARD_CREATE_TUNA_HDCP_KEYS_SYMLINK), true)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := tuna_hdcp_keys
@@ -45,3 +46,4 @@ $(LOCAL_BUILT_MODULE):
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
+endif
