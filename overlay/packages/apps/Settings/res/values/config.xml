@@ -22,4 +22,7 @@
     <!-- True if device has High Performance Sound support -->
     <bool name="device_enable_high_perf_sound" translatable="false">true</bool>
 
+    <!-- Enable torch on tuna devices -->
+    <bool name="has_led_flash">true</bool>
+
 </resources>
