@@ -25,11 +25,6 @@ else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-PRODUCT_COPY_FILES += \
-    device/samsung/tuna/modules/ansi_cprng.ko:system/modules/ansi_cprng.ko \
-    device/samsung/tuna/modules/rpmsg_client_sample.ko:system/modules/rpmsg_client_sample.ko \
-    device/samsung/tuna/modules/rpmsg_server_sample.ko:system/modules/rpmsg_server_sample.ko
-
 DEVICE_PACKAGE_OVERLAYS := device/samsung/tuna/overlay
 
 # This device is xhdpi.  However the platform doesn't
